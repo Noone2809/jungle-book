@@ -6,7 +6,6 @@ The Jungle Cook is a recipe-themed website project built with JavaScript, Sass, 
 
 https://in-info-web4.luddy.indianapolis.iu.edu/~ccucuiet/N315/jungle-book/#home
 
-Replace the example URL above with the published site link when it is available.
 
 ## Features
 
