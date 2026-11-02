@@ -1,0 +1,61 @@
+header{
+    width: 100%;
+    min-height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    // background-color: rgb(35, 116, 203);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        width: 167px;
+        height: 55px;
+        // background-color: white;
+        background-image: url('../assets/Screenshot\ 2026-11-02\ 011437.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 50px;
+    }
+
+
+    nav{
+        max-width: 960px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        margin-right: 50px;
+
+        a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-family: 'Caveat';
+            font-size: 25px;
+            font-weight: 400;
+        }
+
+        .nav-login{
+            width: 158px;
+            height: 52px;
+            background-color: white;
+            border-radius: 26px;
+            background-color: #FFD972;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 10px 3px rgba(0, 0, 0, 0.16);
+
+            font-family: 'Caveat';
+            font-size: 25px;
+            font-weight: 400;
+            letter-spacing: 10%;
+            &:hover{
+                cursor: pointer;
+                background-color: #f4cc61;
+            }
+        }
+    }
+}

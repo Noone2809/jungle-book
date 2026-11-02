@@ -1,0 +1,77 @@
+.home{
+    background-image: linear-gradient(to bottom, rgba(242, 92, 84, .6), rgba(242, 92, 84, .6)), url('../assets/d542b9c6ddeb7344eebe19fda3e55a961b9312e9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    // background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .round_circles{
+        position: relative;
+        width: 450px;
+        height: 500px;
+        // background-color: #626660;
+
+        .small_circle{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: #FCBCB8;
+            position: absolute;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 10px 3px rgba(0, 0, 0, 0.16);
+
+            p{
+                margin-top: 0;
+                width: 110px;
+                height: 38px;
+                text-align: center;
+                font-family: 'Lato';
+                font-size: 10px;
+                font-weight: 400;
+                font-style: italic;
+                letter-spacing: 10%;
+
+            }
+        }
+        .large_circle{
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            background-color: #FFD972;
+            position: absolute;
+            top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            flex-direction: column;
+            gap: 31px;
+            box-shadow: 0 10px 3px rgba(0, 0, 0, 0.16);
+
+            h1{
+                color: #000000;
+                font-family: 'Caveat';
+                font-size: 30px;
+                font-weight: 700;
+                letter-spacing: 10%;
+            }
+
+            p{
+                text-align: center;
+                width: 200px;
+                height: 80px;
+                font-family: 'Lato';
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 10%;
+            }
+        }
+    }
+} 
